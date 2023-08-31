@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap");
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto&display=swap');
+a{
+  text-decoration: none;
+  color: rgb(54, 148, 148);
+}
+body{
+  background-color: #14161a;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.selectbutton{
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 22%;
+  font-family: "Montserrat";
+  cursor: pointer;
+  transition: 0.5s all;
+  
+}
+.selectbutton:hover{
+  color:white;
+  background-color: black;
+}
